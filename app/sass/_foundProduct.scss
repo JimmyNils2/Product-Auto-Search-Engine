@@ -1,0 +1,37 @@
+.productContainer{
+    width: 100%;
+    height: 8em;
+    border-bottom: 1px solid #d8d8d852;
+    padding: 6px 8px;
+}
+.thumbnail{
+    display: flex;
+    align-items: center;
+}
+.thumbnail{
+    width: auto;
+    height: 100%;
+}
+.imgContainer{
+    display: flex;
+    flex: 2;
+}
+.imgContainer img{
+    height: 7em;
+    display: flex;
+    margin: 0 auto;
+}
+.productName{
+    font-size: 20px;
+    color: #000;
+    margin-left: 20px;
+    flex: 5;
+    display: flex;
+}
+
+.productRating{
+    color: #a1a1a1;
+    font-size: 16px;
+    display: flex;
+    flex: .3;
+}
